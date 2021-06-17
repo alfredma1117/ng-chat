@@ -7,4 +7,6 @@ export interface IChatParticipant {
     readonly status: ChatParticipantStatus;
     readonly avatar: string|null;
     readonly displayName: string;
+    readonly badgeInitial?: string;
+    readonly badgeColor?: string;    
 }
